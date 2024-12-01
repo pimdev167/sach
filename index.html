@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Thư viện sách</title>
+    <link rel="icon" href="images/icon-index-32x32.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <nav class="navbar-container">
+                <div class="nav">
+                    <a href="index.html">Trang chủ</a>
+                    <a href="special.html">Tiêu biểu</a>
+                    <a href="#sách mới">Sách mới</a>
+                    <a href="#top đánh giá">Top đánh giá</a>
+                    <a href="#liên hệ">Liên hệ</a>
+                </div>
+                <div class="search-container">
+                    <input class="search-input" placeholder="Nhập tên sách.." type="text">
+                    <div class="delete_value">&times;</div>
+                    <div class="icon-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="container-user">
+                    <div class="sign js-sign">
+                        Đăng kí
+                    </div>
+                    <div class="login js-login">
+                        Đăng nhập
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="sách mới" class="section-1">
+        <h2 style="color: white;">Sách Mới Ra Mắt</h2>
+        <div class="books-grid">
+            <div class="book">
+                <img src="./images/anh1.jpg" alt="Đắc Nhân Tâm">
+                <h3>Đắc Nhân Tâm</h3>
+                <p>Tác giả: DALE CARNEGIE</p>
+                <p>Thể loại: Kỹ năng sống & Phát triển bản thân</p>
+                <a href="book-read.html" >
+                    <button style="margin-top: 20px" class="show-detail" data-book-id="1">Chi Tiết</button>
+                </a>
+            </div>
+            <div class="book">
+                <img src="./images/book2.jpg" alt="Jane Eyre">
+                <h3>Jane Eyre</h3>
+                <p>Tác giả: CHARLOTTE BRONTE</p>
+                <p>Thể loại: Văn học</p>
+                <a href="book-read.html" >
+                    <button style="margin-top: 45px;" class="show-detail" data-book-id="2">Chi Tiết</button>
+                </a>
+            </div>
+            <div class="book">
+                <img src="./images/book3.jpg" alt="Những cô gái nhỏ (Little Women)">
+                <h3>Những cô gái nhỏ (Little Women)</h3>
+                <p>Tác giả: Louisa May Alcott</p>
+                <p>Thể loại: Tiểu thuyết</p>
+                <a href="book-read.html" >
+                    <button class="show-detail" data-book-id="3">Chi Tiết</button>
+                </a>
+            </div>
+            <div class="book">
+                <img src="./images/book4.jpg" alt="Chuông nguyện hồn ai">
+                <h3>Chuông nguyện hồn ai</h3>
+                <p>Tác giả: Ernest Hemingway</p>
+                <p>Thể loại: Tiểu thuyết</p>
+                <a href="book-read.html" >
+                    <button class="show-detail" data-book-id="4">Chi Tiết</button>
+                </a>
+            </div>
+            <div class="book">
+                <img src="./images/book5.jpg" alt="Bố Già">
+                <h3>Bố Già</h3>
+                <p>Tác giả: G. P. Putnam's Sons</p>
+                <p>Thể loại: Tiểu Thuyết</p>
+                <a href="book-read.html" >
+                    <button style="margin-top: 45px;" class="show-detail" data-book-id="5">Chi Tiết</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="top đánh giá" class="section-2">
+        <h2 style="color: white;">Top Sách Được Đánh Giá Cao</h2>
+        <div style="box-shadow: none;"class="books-grid">
+            <div class="book">
+                <img style="margin-left: 144px;" src="./images/anh1.jpg" alt="Đắc Nhân Tâm">
+                <h3>Đắc Nhân Tâm</h3>
+                <p>Đánh giá: ★★★★★ (5.0)</p>
+                <p>Thể loại: Tâm Lý Học</p>
+                <a href="book-read.html" >
+                    <button class="show-detail" data-book-id="1">Chi Tiết</button>
+                </a>
+            </div>
+            <div class="book">
+                <img style="margin-left: 144px;" src="./images/book3.jpg" alt="Những cô gái nhỏ (Little Women)">
+                <h3>Những cô gái nhỏ (Little Women)</h3>
+                <p>Đánh giá: ★★★★☆ (4.5)</p>
+                <p>Thể loại: Tiểu thuyết</p>
+                <a href="book-read.html" >
+                    <button class="show-detail" data-book-id="3">Chi Tiết</button>
+                </a>
+            </div>
+            <div class="book">
+                <img style="margin-left: 144px;" src="./images/book5.jpg" alt="Bố Già">
+                <h3>Bố Già</h3>
+                <p>Đánh giá: ★★★★☆ (4.0)</p>
+                <p>Thể loại: Tiểu Thuyết</p>
+                <a href="book-read.html" >
+                    <button class="show-detail" data-book-id="5">Chi Tiết</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="tac_pham_kinh_dien">
+        <h2>Tác phẩm kinh điển</h2>
+        <div class="container-full">
+            <i class="fa-solid fa-arrow-left js-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right js-arrow-right"></i>
+            <div class="container-book"> 
+            </div>
+        </div>
+    </section>
+    <section class="thu_vien_de_xuat">
+        <h2>Thư viện đề xuất</h2>
+        <div class="container-full">
+            <i class="fa-solid fa-arrow-left js-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right js-arrow-right"></i>
+            <div class="container-book">
+            </div>
+        </div>
+    </section>
+    <section class="sach_dang_xem">
+        <h2>Những cuốn sách đáng xem</h2>
+        <div class="container-full">
+            <div class="container-book">
+            </div>
+        </div>
+    </section>
+    <section id="liên hệ" class="liên hệ">
+        <div class="container">
+            <h2>Giới Thiệu</h2>
+            <p>Thư viện sách online là nơi bạn có thể tìm thấy hàng nghìn cuốn sách thuộc nhiều thể loại. Chúng tôi cam
+                kết cung cấp trải nghiệm đọc sách tiện lợi và nhanh chóng.</p>
+        </div>
+    </section>
+<div id="registerForm">
+    <div class="modal-content">
+        <div id="closeBtn">&times;</div>
+        <h2>Đăng ký tài khoản</h2>
+        <p>Đăng kí để mua và theo dõi quá trình đọc sách</p>
+        <form>
+            <input type="text" id="phone" placeholder="Số điện thoại">
+            <input type="password" id="password" placeholder="Mật khẩu">
+            <label for="password">Mật khẩu bao gồm ít nhất 6 ký tự</label>
+            <input type="password" id="confirmPassword" placeholder="Nhập lại mật khẩu">
+            <label for="password">Mật khẩu bao gồm ít nhất 6 ký tự</label>
+            <p class="remind">Tài khoản đã tồn tại</p>
+            <button class="js-sign-confirm">
+                <span>Đăng kí</span>
+            </button>
+            <p>Hoặc đăng kí với</p>
+        </form>
+        <div class="login-other">
+            <button><i class="fa-brands fa-facebook-f"></i>Facebook</button>
+            <button><i class="fa-brands fa-google"></i>Google</button>
+        </div>
+        <div class="clause">
+            Bằng việc nhấn "Đăng kí" bạn đã đọc và đồng ý điều khoản của chúng tôi
+        </div>
+    </div>
+</div>
+    <div id="loginForm">
+        <div class="modal-content">
+            <div id="closeBtn1">&times;</div>
+            <h2>Đăng nhập</h2>
+            <p>Đăng nhập mật khẩu với</p>
+            <form style="margin-bottom: 3rem;">
+                <input type="text" id="userPhone" placeholder="Số điện thoại">
+                <input type="password" id="userPassword" placeholder="Mật khẩu">
+                <span style="margin-right: -16rem; color: rgb(15, 192, 15); cursor: pointer;">Quên mật khẩu</span>
+                <button class="js-login-confirm">Đăng nhập</button>
+                <p>Hoặc đăng nhập với</p> 
+            </form>
+            <div class="login-other">
+                <button><i class="fa-brands fa-facebook-f"></i>Facebook</button>
+                <button><i class="fa-brands fa-google"></i>Google</button>
+            </div>
+            <div class="clause">
+                Bằng việc nhấn "Đăng nhập" bạn đã đọc và đồng ý điều khoản của chúng tôi
+            </div>
+        </div>
+    </div>
+    <div class="container-search">
+        <div class="show-result">
+        </div>
+        <div class="container-book-search">
+
+        </div>
+        <div class="not-find">
+           
+        </div>
+    </div>
+    <footer class="footer-index">
+        <div class="container">
+            <h2>Liên Hệ</h2>
+            <div class="contact-email">
+                <i class="fa-solid fa-envelope"></i>
+                <p></i>Email: superpim8@gmail.com</p>
+            </div>
+            <div class="contact-phone">
+                <i class="fa-solid fa-phone"></i>
+                <p>Điện thoại: 0763002717</p>
+            </div>
+            <div class="contact-facebook">
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com/profile.php?id=100027892998589" class="">Facebook</a>
+            </div>
+        </div>
+        <p>© 2024 Thư Viện Sách Cao Cấp. Tất cả quyền được bảo lưu.</p>
+    </footer>
+</body>
+<script src="js/index.js" type="module"></script>
+<script src="https://kit.fontawesome.com/6c1ead4ba4.js" crossorigin="anonymous"></script>
+</html>

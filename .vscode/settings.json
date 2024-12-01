@@ -1,0 +1,34 @@
+{
+  "[blade]": {
+      "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "explorer.confirmDelete": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.editor.empty.hint": "hidden",
+  "code-runner.runInTerminal": true,
+  "debug.onTaskErrors": "debugAnyway",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "liveSassCompile.settings.formats": [
+  {
+    "format": "expanded",
+    "extensionName": ".css",
+    "savePath": "css"
+  }
+],
+"liveSassCompile.settings.autoprefix": [
+],
+"workbench.iconTheme": "material-icon-theme",
+"emmet.includeLanguages": {
+  "javascript": "javascriptreact"
+},
+"[javascript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[html]": {
+  "editor.defaultFormatter": "vscode.html-language-features"
+}
+}
